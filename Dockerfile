@@ -30,4 +30,4 @@ COPY --chmod=755 . .
 # API PORT
 EXPOSE 8000
 
-ENTRYPOINT ["sh", "start.sh"]
+CMD ["sh", "start.sh"]
